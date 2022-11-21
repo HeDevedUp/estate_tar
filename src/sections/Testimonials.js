@@ -12,10 +12,10 @@ const Testimonials = () => {
                         <div className="imgBox"></div>
                     </div>
                     <div className="testimonials__text">
-                        <p className="testimonials__message">“Grapevine has managed to produce the best naturally derived products without any harmful ingredients in a sophisticated way”</p>
+                        <p className="testimonials__message">“Chisu  has manages and sell properties”</p>
 
                         <p className="customer__name">Juliet Annabelle</p>
-                        <p className="customer__profession">Beauty model</p>
+                        <p className="customer__profession"> cutomer</p>
 
                         <div className="arrows">
                             <button className="prev-btn" style={{'marginRight': '.9rem'}}>

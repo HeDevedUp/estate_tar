@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__row">
-                <a href="/" className="footer__logo">  </a>
+                <a href="/" className="footer__logo">Chisu</a>
 
                 <div>
                     <h4>Info</h4>

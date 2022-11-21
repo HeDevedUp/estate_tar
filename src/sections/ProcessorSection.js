@@ -116,7 +116,7 @@ const Text = styled.div`
 const ProcessorSection = () => {
   return (
     <Section>
-      <Title>Fastest Processor</Title>
+      <Title>Luxury Homes</Title>
       <Processor>
       <img src={a15} alt="A15 processor" />
         {/* <img src={a15} alt="A15 processor" /> */}

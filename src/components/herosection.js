@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="hero__inner">
-                <p className="hero__subheading">Evolve your skin with luxury, science-led natural skincare with highest calibre of green science innovation </p>
+                <p className="hero__subheading">1—6 bed apartments at the finest address in Europe.. </p>
                 <h1 className="hero__heading">
-                    <span className="hero__heading--left">Cruelty-free</span>
-                    <span className="hero__heading--right">luxury skincare</span>
+                    <span className="hero__heading--left">Top Notch</span>
+                    <span className="hero__heading--right">luxury homes</span>
                 </h1>
             </div>
         </div>
