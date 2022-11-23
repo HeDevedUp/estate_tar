@@ -1,6 +1,6 @@
- # CHIsu - A Talent and Brand Management Agency.
+ # CHIsu - A Brand Management Agency.
 
-This project's major objective was to showcase the agency's next generation of singers, models, athletes, and digital entrepreneurs and celebrate its success in the entertainment industry.
+This project's major objective was to showcase the agency's next generation of see its success in the entertainment industry.
 ## Table of contents
 
 - [Overview](#overview)
@@ -25,7 +25,7 @@ Major Components of the Project includes
 
 ### Links
 
-- Live Site URL: https://ovatave.netlify.app/
+- Live Site URL:https://estate-543sqpef2-yori-admin.vercel.app/
 
 ### Images of the project
 
