@@ -1,38 +1,26 @@
-import DesignSection from "./sections/DesignSection";
-import DisplaySection from "./sections/DisplaySection";
-import HeroSection from "./sections/HeroSection";
-import PhoneModel from "./sections/PhoneModel";
-import Quote from "./sections/Quote";
-import Header from "./sections/header"
-import { GlobalStyle } from "./styles/GlobalStyle";
-import ProcessorSection from "./sections/ProcessorSection";
-import BatterySection from "./sections/BatterySection";
-import ColorSection from "./sections/ColorSection";
-import CameraSection from "./sections/CameraSection";
-import PricingSection from "./sections/PricingSection";
-import Collection from './sections/Collection'
-import Testimonials from "./sections/Testimonials";
-import Footer from './sections/Footer'
-import { ColorContextProvider } from "./context/ColorContext";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Scrolltotop from "./components/Scroll-to-top/index";
+import { ScrollFromBottom } from "./components/Scroll-to-top/ScrollFromBottom";
+import Error404 from "./container/Error404/index";
+import Home from "./container/Home/index";
+import Navbar from "./components/Navbar/Navbar";
+import Cursor from "./components/CustomCursor/Cursor";
 
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      <Quote />
-      {/* <PhoneModel /> */}
-      <HeroSection />
-      <DesignSection />
-      {/* <DisplaySection /> */}
-      <ProcessorSection />
-      <Collection />
-      <ColorContextProvider>
-        {/* <ColorSection /> */}
-        <CameraSection />
-        <Testimonials />
-        <Footer/>
-      </ColorContextProvider>
-    </>
+    <div className="App">
+      <Router>
+        <Cursor />
+        <Scrolltotop />
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="*" element={<Error404 />} />
+        </Routes>
+        <ScrollFromBottom />
+      </Router>
+    </div>
   );
 }
 
