@@ -43,7 +43,7 @@ Major Components of the Project includes
 
 ## Author
 
-- Twitter - [@jhimmyofficial](https://www.twitter.com/@jhimmyofficial)
+- Twitter - [@devtochi](https://www.twitter.com/@jhimmyofficial)
 
 ## Running the Project
 
