@@ -1,4 +1,4 @@
- # Ovatave - A Talent and Brand Management Agency.
+ # CHIsu - A Talent and Brand Management Agency.
 
 This project's major objective was to showcase the agency's next generation of singers, models, athletes, and digital entrepreneurs and celebrate its success in the entertainment industry.
 ## Table of contents
@@ -29,7 +29,6 @@ Major Components of the Project includes
 
 ### Images of the project
 
-<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/ovatave-screenshot.webp"/>
 
 
 ### Built with
