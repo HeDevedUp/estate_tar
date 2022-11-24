@@ -9,7 +9,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -38,16 +38,16 @@ function Navbar() {
         <a href="/">
           <li>Home</li>
         </a>
-        <Link to="/amenties" smooth={true} duration={500}>
+        <Link to="/amenties" >
           <li>Amenities</li>
         </Link>
-        <Link to="/neighbourhood" smooth={true} duration={500}>
+        <Link to="/neighbourhood" >
           <li>Neighbourhood</li>
         </Link>
-        <Link to="/team" smooth={true} duration={500}>
+        <Link to="/team" >
           <li>The Team</li>
         </Link>
-        <Link to="/residence" smooth={true} duration={500}>
+        <Link to="/residence" >
           <li>My Residences</li>
         </Link>
       </ul>
@@ -64,16 +64,16 @@ function Navbar() {
           <a href="/">
             <li>Home</li>
           </a>
-          <Link to="/amenities" smooth={true} duration={500} onClick={closeNav}>
+          <Link to="/amenities" onClick={closeNav}>
             <li>Amenities</li>
           </Link>
-          <Link to="/neighbourhood" smooth={true} duration={500} onClick={closeNav}>
+          <Link to="/neighbourhood"  onClick={closeNav}>
             <li>Neighbourhood</li>
           </Link>
-          <Link to="/team" smooth={true} duration={500} onClick={closeNav}>
+          <Link to="/team"  onClick={closeNav}>
             <li>The Team</li>
           </Link>
-          <Link to="/residence" smooth={true} duration={500}>
+          <Link to="/residence" onClick={handleNav} >
             <li> My Residences</li>
           </Link>
         </ul>
