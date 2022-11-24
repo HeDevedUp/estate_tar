@@ -32,23 +32,23 @@ function Navbar() {
   return (
     <div name="home" className={color ? "navbar navbar-bg" : "navbar"}>
       <div className="logo">
-        <h4>CHISO</h4>
+        <h4>CHISU</h4>
       </div>
       <ul className="nav-menu">
         <a href="/">
           <li>Home</li>
         </a>
-        <Link to="what-we-do" smooth={true} duration={500}>
-          <li>What We Do</li>
+        <Link to="/amenties" smooth={true} duration={500}>
+          <li>Amenities</li>
         </Link>
-        <Link to="talents" smooth={true} duration={500}>
-          <li>Talents</li>
+        <Link to="/neighbourhood" smooth={true} duration={500}>
+          <li>Neighbourhood</li>
         </Link>
-        <Link to="why-us" smooth={true} duration={500}>
-          <li>Why Us</li>
+        <Link to="/team" smooth={true} duration={500}>
+          <li>The Team</li>
         </Link>
-        <Link to="contact" smooth={true} duration={500}>
-          <li>Get in Touch</li>
+        <Link to="/residence" smooth={true} duration={500}>
+          <li>My Residences</li>
         </Link>
       </ul>
       <div className="hamburger" onClick={handleNav}>
@@ -64,19 +64,20 @@ function Navbar() {
           <a href="/">
             <li>Home</li>
           </a>
-          <Link to="what-we-do" smooth={true} duration={500} onClick={closeNav}>
-            <li>What We Do</li>
+          <Link to="/amenities" smooth={true} duration={500} onClick={closeNav}>
+            <li>Amenities</li>
           </Link>
-          <Link to="talents" smooth={true} duration={500} onClick={closeNav}>
-            <li>Talents</li>
+          <Link to="/neighbourhood" smooth={true} duration={500} onClick={closeNav}>
+            <li>Neighbourhood</li>
           </Link>
-          <Link to="why-us" smooth={true} duration={500} onClick={closeNav}>
-            <li>Why Us</li>
+          <Link to="/team" smooth={true} duration={500} onClick={closeNav}>
+            <li>The Team</li>
           </Link>
-          <Link to="contact" smooth={true} duration={500}>
-            <li>Get in Touch</li>
+          <Link to="/residence" smooth={true} duration={500}>
+            <li> My Residences</li>
           </Link>
         </ul>
+
         <div className="mobile-menu-bottom">
           <div className="social-icons">
             <FaFacebook className="icon" />
