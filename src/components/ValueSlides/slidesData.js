@@ -1,5 +1,5 @@
 import image3 from "../../assets/images/image3.jpg";
-import image6 from "../../assets/images/image6.jpg";
+import image6 from "../../assets/images/image19.jpg";
 import image17 from "../../assets/images/image17.jpg";
 import image19 from "../../assets/images/image19.jpg";
 
