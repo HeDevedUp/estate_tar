@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../sections/Quote";
+import Banner from "../../components/firstPage/home/home";
 import Hero from "../../sections/HeroSection";
 import Hero1 from "../../components/Collage/Hero";
 import CameraSection from "../../sections/CameraSection";

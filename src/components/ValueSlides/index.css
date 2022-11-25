@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 100px 80px;
-  background: #cac531;
-  background: -webkit-linear-gradient(to top, #f3f9a7, #cac531);
-  background: linear-gradient(to top, #f3f9a7, #cac531);
+  background: #DBD5C9;
+  background: -webkit-linear-gradient(to top, #ecece8, #c7c7c1);
+  background: linear-gradient(to top, #d4d4d1, #e7e7e2);
 }
 
 .feature-slide {

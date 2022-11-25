@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../../sections/Quote";
-import Hero from "../../sections/HeroSection";
+import Banner from "../../components/firstPage/amenities";
+import Hero from "../../components/herosection/amenities";
 import Hero1 from "../../components/Collage/Hero";
 import CameraSection from "../../sections/CameraSection";
 
 
-import ValueSlides from "../../components/ValueSlides/index";
-import TalentSlides from "../../components/SlideShow/TalentSlides";
+import ValueSlides from "../../components/ValueSlides/amenitie";
+import TalentSlides from "../../components/SlideShow/amentie/TalentSlides";
 import Contact from "../../components/GetinTouch/Contact";
 import Footer from "../../components/Footer/Footer";
 import { GlobalStyle } from "../../styles/GlobalStyle";

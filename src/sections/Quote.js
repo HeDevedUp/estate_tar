@@ -3,7 +3,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React from "react";
 import { useRef } from "react";
 import { useLayoutEffect } from "react";
-import Header from "./header";
+import Header from "../components/!!HeroSection/home";
 
 
 

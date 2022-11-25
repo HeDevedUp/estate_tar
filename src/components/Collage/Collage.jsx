@@ -53,7 +53,8 @@ function Collage() {
       tl.to(
         ".hero-container",
         {
-          backgroundColor: "black",
+          backgroundColor: '#DBD5C9',
+
           duration: 0.25,
         },
         "-=0.5"

@@ -64,13 +64,13 @@ function Navbar() {
           <a href="/">
             <li>Home</li>
           </a>
-          <Link to="/amenities" onClick={closeNav}>
+          <Link to="/amenties" onClick={handleNav}>
             <li>Amenities</li>
           </Link>
-          <Link to="/neighbourhood"  onClick={closeNav}>
+          <Link to="/neighbourhood"  onClick={handleNav}>
             <li>Neighbourhood</li>
           </Link>
-          <Link to="/team"  onClick={closeNav}>
+          <Link to="/team"  onClick={handleNav}>
             <li>The Team</li>
           </Link>
           <Link to="/residence" onClick={handleNav} >
