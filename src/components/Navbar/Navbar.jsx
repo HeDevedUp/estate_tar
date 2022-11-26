@@ -47,9 +47,9 @@ function Navbar() {
         <Link to="/team" >
           <li>The Team</li>
         </Link>
-        <Link to="/residence" >
-          <li>My Residences</li>
-        </Link>
+        {/* <Link to="/residence" > */}
+          {/* <li>My Residences</li> */}
+        {/* </Link> */}
       </ul>
       <div className="hamburger" onClick={handleNav}>
         {!nav ? (
@@ -73,9 +73,9 @@ function Navbar() {
           <Link to="/team"  onClick={handleNav}>
             <li>The Team</li>
           </Link>
-          <Link to="/residence" onClick={handleNav} >
-            <li> My Residences</li>
-          </Link>
+          {/* <Link to="/residence" onClick={handleNav} > */}
+            {/* <li> My Residences</li> */}
+          {/* </Link> */}
         </ul>
 
         <div className="mobile-menu-bottom">

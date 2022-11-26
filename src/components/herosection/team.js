@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import backgroundVideo from "../assets/video/real.mp4";
+import backgroundVideo from "../../assets/video/real.mp4";
 
 const Section = styled.section`
   width: 100vw;

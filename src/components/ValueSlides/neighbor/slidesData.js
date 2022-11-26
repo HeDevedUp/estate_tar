@@ -1,31 +1,31 @@
-import image3 from "../../../assets/images/image3.jpg";
-import image6 from "../../../assets/images/image19.jpg";
-import image17 from "../../../assets/images/image17.jpg";
-import image19 from "../../../assets/images/image19.jpg";
+import image3 from "../../../assets/neighborhood/neighbourhood-2-oliver-quote-picture-362778.jpg";
+import image6 from "../../../assets/neighborhood/neighbourhood-4-hyde-park-464258.jpg";
+import image17 from "../../../assets/neighborhood/neighbourhood-3-barsrestaurants-chiltern-firehouse-571987.jpg";
+import image19 from "../../../assets/neighborhood/neighbourhood-7-marylebone-819461.jpg";
 
 export const slidesData = [
   {
-    title: "RIGOUR",
+    title: "BEYOND LOCATION",
     description:
-      "We do things properly. That means starting at the beginning, asking tricky questions and trusting the process, because we know it works. Our methods are based on years of training and industry experience.",
+      "A MOST  EXTRAORDINARY LOCATION",
     imageURL: image3,
   },
   {
-    title: "HONESTY",
+    title: "HYDE PARK",
     description:
-      "We’ll be honest with you about your brand. Sometimes brutally so, because someone has to. And we ask the same of you. We need to know your real goals and motivations for this work.",
+      " The beautiful 350-acre Hyde Park is on your doorstep. This is the largest of four Royal Parks in central London, a place where many threads of the capital’s history meet. A green oasis in the heart of the city, Hyde Park is home to over 4,000 trees, a sizable lake, ornamental flower gardens, as well as numerous buildings and monuments of interest. It’s a wonderful place to walk, exercise or meditate. Rowing or boating are available in the 18th-century Serpentine, London’s largest boating lake. .",
     imageURL: image6,
   },
   {
-    title: "COLLABORATION",
+    title: "MAYFAIR",
     description:
-      "This is your project and we’re here to facilitate. We’ll challenge and inspire your thinking, and ultimately find the answers together. We specialise in working with teams and we need you to be involved",
+      " Bordering Hyde Park, Mayfair is an historic, upscale district of elegant Georgian townhouses, exclusive hotels and restaurants, waiting for you to enjoy. Mayfair’s world-famous retailers include the bespoke tailors of Savile Row and luxury international fashion houses on Bond Street. With 285 acres, 144 streets, 26 Michelin Stars and 5,200 residents, it’s the epitome of taste, fashion and luxury.",
     imageURL: image17,
   },
   {
-    title: "CREATIVITY",
+    title: "MARYLEBONE",
     description:
-      "When strategy meets playful thinking, things get interesting. Far from being dry reseachers, we're more about big ideas. We bring fresh perspectives and directions you may not have bargained for.",
+      'Walk on a little further from The Bryanston and you’ll be in Marylebone, with its relaxed, village feel. There are pockets of leafy green parks, regular farmers’ markets and small independent shops you wouldn’t find anywhere else in London. It is home to the Chiltern Fire House hotel and restaurant, the Wallace Collection museum, and the Edwardian Daunt Books, said to be the world’s first bespoke bookshop.',
     imageURL: image19,
   },
 ];

@@ -22,7 +22,7 @@ function Footer() {
       <footer>
         <div className="footer-top">
           <div className="footer-logo">
-            <h2>CHISO</h2>
+            <h2>CHISU</h2>
             <div className="footer-socials">
               <BsTwitter className="footer-socials-icon" />
               <BsInstagram className="footer-socials-icon" />
@@ -52,7 +52,7 @@ function Footer() {
         </div>
         <div className="footer-end">
           <div className="footer--bottom__left">
-            <p>&#169;2022. All rights reserved CHISO.</p>
+            <p>&#169;2022. All rights reserved CHISU.</p>
           </div>
           <div className="footer--bottom__right">
             <p>

@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../../sections/Quote";
-import Hero from "../../sections/HeroSection";
-import Hero1 from "../../components/Collage/Hero";
+import Banner from "../../components/Banner/Banner";
+import Hero from "../../components/herosection/team";
+import Hero1 from "../../components/Gallery/index";
 import CameraSection from "../../sections/CameraSection";
 
 
@@ -16,14 +16,14 @@ import { GlobalStyle } from "../../styles/GlobalStyle";
 function Home() {
   return (
     <div name="home">
-    <GlobalStyle/>
+    {/* <GlobalStyle/> */}
       <Banner />
       <Hero />
-      <Hero1 />
+      {/* <Hero1 /> */}
       <ValueSlides />
       <TalentSlides />
       {/* <CameraSection/> */}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

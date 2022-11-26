@@ -6,7 +6,7 @@ import '../../styles/components/header.scss';
 
 const HomeContainer = () => {
     return (
-        <header>
+        <header className='homeheader'>
             <Container>
                 <Home />
             </Container>

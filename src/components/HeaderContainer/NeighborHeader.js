@@ -5,7 +5,7 @@ import '../../styles/components/Neigborheader.scss';
 
 const NeighorContainer = () => {
     return (
-        <header>
+        <header className='neighborheader'>
             <Container>
                 <NeighborHero/>
             </Container>

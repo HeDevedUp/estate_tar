@@ -1,14 +1,14 @@
 import React from 'react';
-import '../../styles/Hero.scss';
+import '../../styles/hero/amenty.scss';
 
 const AmenityPhrase = () => {
     return (
         <div className="hero">
             <div className="hero__inner">
-                <p className="hero__subheading">1—6 bed apartments at the finest address in Europe.. </p>
+                <p className="hero__subheading">Wellness, workouts and wind down, all under one roof...</p>
                 <h1 className="hero__heading">
-                    <span className="hero__heading--left">Wellness, workouts and wind down,</span>
-                    <span className="hero__heading--right">all under one roof.</span>
+                    <span className="hero__heading--left">BEYOND</span>
+                    <span className="hero__heading--right">LIFESTYLE.</span>
                 </h1>
             </div>
         </div>
@@ -16,3 +16,7 @@ const AmenityPhrase = () => {
 }
 
 export default AmenityPhrase
+
+
+
+

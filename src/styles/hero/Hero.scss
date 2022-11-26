@@ -43,13 +43,13 @@
         &::before {
             top: 5px;
             left: -5px;
-            background-image: url('../assets/patterns//left-bracket.svg');
+            background-image: url('../../assets/patterns//left-bracket.svg');
         }
 
         &::after {
             top: 5px;
             right: -20px;
-            background-image: url('../assets/patterns/right-bracket.svg');
+            background-image: url('../../assets/patterns/right-bracket.svg');
         }
     }
 

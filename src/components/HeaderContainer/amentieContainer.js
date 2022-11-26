@@ -6,7 +6,7 @@ import '../../styles/components/Amenitieheader.scss';
 
 const AmenityContainer = () => {
     return (
-        <header>
+        <header className='amenityheader'>
             <Container>
                 <AmenityPhrase />
             </Container>

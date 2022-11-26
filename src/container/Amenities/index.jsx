@@ -7,7 +7,7 @@ import CameraSection from "../../sections/CameraSection";
 
 import ValueSlides from "../../components/ValueSlides/amenitie";
 import TalentSlides from "../../components/SlideShow/amentie/TalentSlides";
-import Contact from "../../components/GetinTouch/Contact";
+// import Contact from "../../components/GetinTouch/Contact";
 import Footer from "../../components/Footer/Footer";
 import { GlobalStyle } from "../../styles/GlobalStyle";
 
@@ -23,7 +23,7 @@ function Home() {
       <ValueSlides />
       <TalentSlides />
       {/* <CameraSection/> */}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

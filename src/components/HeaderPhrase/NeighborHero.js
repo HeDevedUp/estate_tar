@@ -1,15 +1,15 @@
 import React from 'react';
-import '../../styles/Hero.scss';
+import '../../styles/hero/neighborhero.scss';
 
 const NeighborHero
  = () => {
     return (
         <div className="hero">
             <div className="hero__inner">
-                <p className="hero__subheading">1—6 bed apartments at the finest address in Europe.. </p>
+                <p className="hero__subheading">Access to the very best of London, within walking distance and beyond... </p>
                 <h1 className="hero__heading">
-                    <span className="hero__heading--left">Top Notch</span>
-                    <span className="hero__heading--right">luxury homes</span>
+                    <span className="hero__heading--left">BEYOND</span>
+                    <span className="hero__heading--right">LOCATION</span>
                 </h1>
             </div>
         </div>
@@ -17,3 +17,7 @@ const NeighborHero
 }
 
 export default NeighborHero
+
+
+
+

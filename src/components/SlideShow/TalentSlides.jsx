@@ -23,6 +23,7 @@ function TalentSlides() {
 
       <div className="slideshow__slider">
         {talents.map((item, index) => (
+
           <div
             key={item.name + index}
             className="slideshow__item"
