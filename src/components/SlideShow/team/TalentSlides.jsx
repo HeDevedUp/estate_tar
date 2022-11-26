@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./TalentSlides.css";
 import { talents } from "./talentData";
-import Button from "../Button/Button";
+import Button from "../../Button/Button";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -14,10 +14,10 @@ function TalentSlides() {
   return (
     <div className="slideshow" name="talents">
       <div data-aos="fade-down" data-aos-easing="ease-in-sine">
-        <h3>Our works</h3>
+        {/* <h3>Our Sponsors </h3> */}
         <p>
           Swipe to see our catalogue of Amazing Tale ranging from your
-          favourite houses,
+          favourite buildings,
         </p>
       </div>
 

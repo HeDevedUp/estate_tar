@@ -5,8 +5,8 @@ import Hero1 from "../../components/Gallery/index";
 import CameraSection from "../../sections/CameraSection";
 
 
-import ValueSlides from "../../components/ValueSlides/index";
-import TalentSlides from "../../components/SlideShow/TalentSlides";
+import ValueSlides from "../../components/ValueSlides/team/index";
+import TalentSlides from "../../components/SlideShow/team/TalentSlides";
 import Contact from "../../components/GetinTouch/Contact";
 import Footer from "../../components/Footer/Footer";
 import { GlobalStyle } from "../../styles/GlobalStyle";

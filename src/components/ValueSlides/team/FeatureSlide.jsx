@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import useOnScreen from "../../utils/useOnScreen";
+import useOnScreen from "../../../utils/useOnScreen";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

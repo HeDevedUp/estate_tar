@@ -8,11 +8,11 @@ function Banner() {
       <div className="banner__wrapper">
         <div className="banner__heading">
           <h1>
-            Talent Management & Brand <br />
+            Real Estate Management & Brand <br />
             Development for the next <br />
             generation of <br />
-            Singers, Models, Athletes, and <br />
-            Digital Entrepreneurs.
+            House Owners, Hotels, and <br />
+            Real EstateEntrepreneurs.
           </h1>
         </div>
 
@@ -32,13 +32,13 @@ function Banner() {
 
         {/* display on mobile*/}
         <div className="banner__buttons-mobile  hide-on-desktop">
-          <div className="two-buttons-wrap">
+          <div className="two-buttons-Crap">
             <div className="banner__btn-first-mobile">
               <Button title="Learn More" />
             </div>
 
             <div className="banner__btn-second-mobile">
-              <Button title="Our Talents" />
+              <Button title="what we do" />
             </div>
           </div>
 
