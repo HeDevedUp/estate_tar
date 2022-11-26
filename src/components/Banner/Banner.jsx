@@ -26,13 +26,13 @@ function Banner() {
           </div>
 
           <div className="banner__btn-second">
-            <Button title="Our Talents" />
+            <Button title="what we do" />
           </div>
         </div>
 
         {/* display on mobile*/}
         <div className="banner__buttons-mobile  hide-on-desktop">
-          <div className="two-buttons-Crap">
+          <div className="two-buttons-wrap">
             <div className="banner__btn-first-mobile">
               <Button title="Learn More" />
             </div>

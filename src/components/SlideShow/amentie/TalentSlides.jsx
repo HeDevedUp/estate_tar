@@ -14,10 +14,10 @@ function TalentSlides() {
   return (
     <div className="slideshow" name="talents">
       <div data-aos="fade-down" data-aos-easing="ease-in-sine">
-        <h3>Our works</h3>
+        {/* <h3>Our works</h3> */}
         <p>
-          Swipe to see our catalogue of Amazing Tale ranging from your
-          favourite houses,
+        Swipe to see our catalogue of Amazing Buildings,
+
         </p>
       </div>
 

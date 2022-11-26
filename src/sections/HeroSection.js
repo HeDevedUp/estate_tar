@@ -101,10 +101,10 @@ const HeroSection = () => {
       <VideoContainer>
         <video src={backgroundVideo} type="video/mp4" autoPlay muted loop />
       </VideoContainer>
-      <Title>Chiso</Title>
+      <Title>Chisu</Title>
       <TextContainer>
-        <span>So.luxury.</span>
-        <span>So.Bold.</span>
+        <span>EXTRAORDINARY</span>
+        <span>LOCATION.</span>
       </TextContainer>
     </Section>
   );

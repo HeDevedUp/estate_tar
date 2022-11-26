@@ -103,8 +103,8 @@ const AmenitesHero = () => {
       </VideoContainer>
       <Title>Chisu</Title>
       <TextContainer>
-        <span>So.luxury.</span>
-        <span>So.Bold.</span>
+        <span>CONCIERGE</span>
+
       </TextContainer>
     </Section>
   );

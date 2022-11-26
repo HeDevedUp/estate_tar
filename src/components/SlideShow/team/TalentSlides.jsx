@@ -16,8 +16,7 @@ function TalentSlides() {
       <div data-aos="fade-down" data-aos-easing="ease-in-sine">
         {/* <h3>Our Sponsors </h3> */}
         <p>
-          Swipe to see our catalogue of Amazing Tale ranging from your
-          favourite buildings,
+        Swipe to see our catalogue of Amazing Buildings
         </p>
       </div>
 

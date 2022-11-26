@@ -101,8 +101,8 @@ const NeighborHero = () => {
       </VideoContainer>
       <Title>Chisu</Title>
       <TextContainer>
-        <span>So.luxury.</span>
-        <span>So.Bold.</span>
+        <span>EXTRAORDINARY.</span>
+        <span>LOCATION.</span>
       </TextContainer>
     </Section>
   );
